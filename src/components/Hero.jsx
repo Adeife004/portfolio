@@ -206,7 +206,7 @@ const Hero = () => {
 {`const developer = {
   name: "Adebowale Jasmine",
   skills: ["React", "Node.js", "MongoDB"],
-  passion: "Building Cool Stuff"
+  passion: "Coding and Debugging"
 };`}
         </pre>
       </motion.div>
