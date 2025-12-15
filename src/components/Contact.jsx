@@ -28,18 +28,18 @@ const Contact = () => {
     setStatus({ type: '', message: '' });
 
     try {
-      // EmailJS configuration - Replace with your actual values
+      // EmailJS configuration 
       await emailjs.send(
-        'service_tpk3iru', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_tpk3iru', 
+        'template_p3uzemd', 
         {
           from_name: formData.name,
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_name: 'Adebowale Jasmine' // Replace with your name
+          to_name: 'Adebowale Jasmine' 
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'DCfV3kd_9LNy39tUz' 
       );
 
       setStatus({
@@ -62,7 +62,7 @@ const Contact = () => {
       icon: <FaEnvelope />,
       label: 'Email',
       value: 'adebowalejasmine437@gmail.com',
-      link: 'mailto:your.email@example.com'
+      link: 'mailto:adebowalejasmine437@gmail.com'
     },
     {
       icon: <FaPhone />,
