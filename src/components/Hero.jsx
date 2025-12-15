@@ -77,7 +77,7 @@ const Hero = () => {
   { icon: <FaGithub />, url: 'https://github.com/Adeife004', label: 'GitHub' },
   { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/adebowale-jasmine-324171340', label: 'LinkedIn' },
   { icon: <FaTwitter />, url: 'https://x.com/AdebowaleJasmi1?s=09', label: 'Twitter' },
-  { icon: <SiWhatsapp />, url: 'https://wa.me/2348068764209', label: 'WhatsApp' }
+  { icon: <SiWhatsapp />, url: 'https://wa.me/message/AJTLJ3LZZCW7I1', label: 'WhatsApp' }
 ];
 
   return (

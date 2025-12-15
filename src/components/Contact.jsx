@@ -82,7 +82,7 @@ const Contact = () => {
     { icon: <FaGithub />, label: 'GitHub', url: 'https://github.com/Adeife004', color: '#181717' },
     { icon: <FaLinkedin />, label: 'LinkedIn', url: 'https://www.linkedin.com/in/adebowale-jasmine-324171340', color: '#0A66C2' },
     { icon: <FaTwitter />, label: 'Twitter', url: 'https://x.com/AdebowaleJasmi1?s=09', color: '#1DA1F2' },
-    { icon: <SiWhatsapp />, label: 'WhatsApp', url: 'https://wa.me/2348068764209', color: '#25D366' },
+    { icon: <SiWhatsapp />, label: 'WhatsApp', url: 'https://wa.me/message/AJTLJ3LZZCW7I1', color: '#25D366' },
     { icon: <SiTelegram />, label: 'Telegram', url: 'https://t.me/Adeife004', color: '#0088cc' }
   ];
 
